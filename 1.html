@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студент ВШЭ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+        header img {
+            width: 100px;
+            height: auto;
+            margin-right: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #f8f9fa;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://i.postimg.cc/4xZ5wB2k/01-Logo-HSE-full-rus-CMYK-for-dark-2.png" alt="Логотип ВШЭ">
+        <h1>Я - студент ВШЭ</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#feedback">Обратная связь</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Добро пожаловать!</h2>
+            <article>
+                <p>Я - Цыплаков Александр Александрович, студент Высшей Школы Экономики, программы "Прикладная Математика". Здесь вы найдете интересующую вас информацию обо мне и о нашем университете.</p>
+                
+            </article>
+            <aside>
+                <h3>Полезные ссылки</h3>
+                <ul>
+                    <li><a href="https://www.hse.ru/">Официальный сайт ВШЭ</a></li>
+                    <li><a href="https://www.hse.ru/edu/courses/">Курсы и программы</a></li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Я - студент ВШЭ. Все права защищены.</p>
+    </footer>
+    
+    <!-- Обратная связь -->
+    <header>
+        <h1>Обратная связь</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#feedback">Обратная связь</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="feedback">
+            <h2>Свяжитесь с нами</h2>
+            <form action="#" method="post">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Сообщение:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Я - студент ВШЭ. Все права защищены.</p>
+    </footer>
+</body>
+</html>
